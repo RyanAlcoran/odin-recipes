@@ -1,0 +1,42 @@
+body {
+	font-family: Helvetica, Verdana, sans-serif;
+	margin: 40px;
+}
+
+h2, h1 {
+	color: #0E5E6F;
+}
+
+.recipes {
+	padding: 20px;
+	width: 425px;
+	background-color: #F2DEBA;
+	text-align: center;
+}
+
+.home-recipe-image {
+	width: 350px;
+}
+
+.recipe-image {
+	width: 700px;
+	height: auto;
+	float: left;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.description {
+	background-color: #F2DEBA;
+}
+
+.ingredients {
+	background-color: #FFEFD6;
+}
+
+.text-container {
+	margin: 20px;
+	padding: 10px;
+}
